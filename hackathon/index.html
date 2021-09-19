@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Document</title>
+
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+
+<body>
+
+  <div class =" border-light">
+  <div class="main_container">
+    <div class="hader">
+      
+      <h1>Hello Gamers</h1>
+    </div>
+    <div class="mb-3">
+      <label for="inputEmail" class="form-label ">Email address</label>
+      <input type="email" class="form-control rounded-pill shadow p-3 mb-2 " id="inputEmail"
+        aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text ">if you play this game so please signup</div>
+    </div>
+    <div class="mb-3">
+      <label for="inputPassword" class="form-label">Password</label>
+      <input type="password" class="form-control rounded-pill shadow p-3 mb-2" id="inputPassword">
+    </div>
+
+    <button id="button" type="submit" class="btn btn-primary " onclick=" login() ">LogIn</button>
+    <a href="./signup.html"> <button id="button_2" type="submit" class="btn btn-primary ">Create Account</button></a>
+  </div>
+</div>
+
+
+</body>
+
+</html>
